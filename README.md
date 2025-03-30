@@ -3,7 +3,7 @@ A streamlit app to analyze your whatsapp chats
 
 For trying out the app go to https://whatsapp-chat-analysis-stream.herokuapp.com/
 
-#For containerization 
+# For containerization 
 Build image using
 ```
 docker build -t chatanalysis .
@@ -11,14 +11,21 @@ docker build -t chatanalysis .
 
 Run the image using 
 ```
-docker compose up --build 
+docker-compose up --build 
 ```
 or  for detached mode
 ```
-docker compose up --build -d
+docker-compose up --build -d
 ```
 
 to shutdown containers
 ```
-docker compose down
+docker-compose down
 ```
+
+# Usage of script.sh
+```
+chmod +x script.sh
+./script.sh
+```
+
