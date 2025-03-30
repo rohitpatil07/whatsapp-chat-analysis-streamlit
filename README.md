@@ -29,3 +29,10 @@ chmod +x script.sh
 ./script.sh
 ```
 
+# Usage of cleanup.sh
+## Use when you are manually created containers using image 
+```
+chmod +x cleanup.sh
+./cleanup.sh -i <image-name>
+```
+
