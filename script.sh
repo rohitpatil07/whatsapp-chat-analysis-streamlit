@@ -29,7 +29,7 @@ clone_repo(){
 
 build(){
   echo "**************** Building Image ***********************"
-  #docker build -t chatanalysis .
+  docker build -t chatanalysis .
   echo "LOG : Image built"
 }
 
